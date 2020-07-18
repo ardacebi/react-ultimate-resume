@@ -3,7 +3,7 @@
         "name": "John Doe",
         "label": "Programmer",
         "picture": "",
-        "email": "john@gmail.com",
+        "email": "john.doe@mail.com",
         "phone": "(912) 555-4321",
         "website": "http://johndoe.com",
         "summary": "A summary of John Doe...",
@@ -161,9 +161,17 @@
     "references": [{ "name": "Jane Doe", "reference": "Reference..." }],
     "projects": [
         {
-            "name": "Développement d'un serpent connecté",
+            "index": 2,
+            "name": "1 Développement d'un serpent connecté",
             "description": "Et oui, vous avez bien entendu !\nUn serpent connecté, c'est comme une montre connectée, mais en serpent, en fait ça ressemble pas une montre, mais ça reste connecté 🚀",
             "images": []
+        },
+        {
+            "index": 0,
+            "name": "2 Développement d'un serpent connecté",
+            "description": "Et oui, vous avez bien entendu !\nUn serpent connecté, c'est comme une montre connectée, mais en serpent, en fait ça ressemble pas une montre, mais ça reste connecté 🚀",
+            "images": [],
+            "link" : "www.serpent.fr"
         }
     ],
     "specific": {
@@ -191,7 +199,9 @@
             "codingYears": 7,
             "codingReason": "J'ai commencé à coder sur Amstrad dans ma cave et je n'ai jamais arrêté depuis",
             "searchState": "activelySearching",
-            "experienceYears": 9
+            "experienceYears": 0,
+            "codeExperienceYears": 1,
+            "otherExperienceYears": 1
         },
         "sound": {
             "embedUrl": "https://open.spotify.com/embed/playlist/37i9dQZF1DWWl7MndYYxge"
